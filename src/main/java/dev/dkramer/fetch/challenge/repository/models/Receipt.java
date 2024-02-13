@@ -1,6 +1,5 @@
 package dev.dkramer.fetch.challenge.repository.models;
 
-import dev.dkramer.fetch.challenge.api.models.ReceiptItem;
 import lombok.Builder;
 import lombok.NonNull;
 import lombok.Value;

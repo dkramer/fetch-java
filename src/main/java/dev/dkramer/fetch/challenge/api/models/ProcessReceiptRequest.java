@@ -1,7 +1,5 @@
 package dev.dkramer.fetch.challenge.api.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
 import lombok.NonNull;
 import lombok.Value;
 

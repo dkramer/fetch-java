@@ -1,6 +1,5 @@
 package dev.dkramer.fetch.challenge;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import dev.dkramer.fetch.challenge.api.ReceiptResource;
@@ -16,7 +15,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.Map;
 
 
 @SpringBootTest
