@@ -2,6 +2,7 @@ To build the docker image run `docker build -t dkramer-fetch-test .` in the root
 
 To deploy the project run `docker run -p 8080:8080 -t dkramer-fetch-test` which will allow connections on port 8080 for testing.
 
+Also did it in Go as a challenge to myself. See that [here](https://github.com/dkramer/fetch-go).
 
 
 The project is a Spring Boot application.\
