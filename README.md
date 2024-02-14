@@ -4,9 +4,10 @@ To deploy the project run `docker run -p 8080:8080 -t dkramer-fetch-test` which 
 
 
 
-The project is a Spring Boot application.
-On startup an in memory h2 DB is started and populated by the commands in `\src\main\resources\schema.sql`.
-The handler for the endpoints are in `ReceiptResource.java`. 
-The `/receipts/process` endpoint populates the points total and saves the receipt and items to the DB. Note log/console output when this is done to see calculated points (in addition to the `/receipts/{id}/points` endpoint).
+The project is a Spring Boot application.\
+On startup an in memory h2 DB is started and populated by the commands in `\src\main\resources\schema.sql`.\
+The handler for the endpoints are in `ReceiptResource.java`.\
+The `/receipts/process` endpoint populates the points total and saves the receipt and items to the DB. Note log/console output when this is done to see calculated points (in addition to the `/receipts/{id}/points` endpoint).\
+
 
 There are also tests in `src/test/java/dev/dkramer/fetch/challenge/ReceiptResourceTests.java`.
